@@ -19,6 +19,7 @@ const query = (params: Partial<User & { orgId: string }>) => {
   return delay(getUserData())
 }
 
+
 const userApi = {
   query,
 }
